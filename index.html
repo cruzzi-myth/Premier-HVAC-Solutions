@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Premier HVAC Solutions – Residential and commercial heating, cooling, and maintenance. Available 24/7." />
+  <title>Premier HVAC Solutions | Heating & Cooling Experts</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon"><i class="fas fa-wind"></i></span>
+        <span class="logo-text">Premier <span class="accent">HVAC</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="tel:+15550005678" class="nav-phone"><i class="fas fa-phone"></i> (555) 000-5678</a></li>
+        <li><a href="#contact" class="nav-cta">Get a Quote</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1600&q=80" alt="HVAC technician at work" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge"><i class="fas fa-certificate"></i> Certified HVAC Technicians</div>
+        <h1>Comfort You Can <span class="accent">Count On</span></h1>
+        <p>From emergency AC repairs to full system installs — Premier HVAC delivers fast, reliable service for homes and businesses across Your City.</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn-primary">Schedule Service</a>
+          <a href="tel:+15550005678" class="btn-light"><i class="fas fa-phone"></i> (555) 000-5678</a>
+        </div>
+      </div>
+    </div>
+    <div class="availability-strip">
+      <div class="as-inner">
+        <div class="as-item"><i class="fas fa-clock"></i><span>24/7 Emergency Response</span></div>
+        <div class="as-divider"></div>
+        <div class="as-item"><i class="fas fa-bolt"></i><span>Same-Day Appointments</span></div>
+        <div class="as-divider"></div>
+        <div class="as-item"><i class="fas fa-shield-alt"></i><span>Licensed & Insured</span></div>
+        <div class="as-divider"></div>
+        <div class="as-item"><i class="fas fa-dollar-sign"></i><span>Upfront Flat-Rate Pricing</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-bar">
+    <div class="container stats-inner">
+      <div class="stat-item">
+        <span class="stat-num" data-target="18">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Years in Business</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="4800">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Jobs Completed</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="3200">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Happy Clients</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <i class="fas fa-star stat-star"></i>
+        <span class="stat-num" data-target="49" data-decimal="true">0</span>
+        <span class="stat-label">Average Rating</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item availability-stat">
+        <i class="fas fa-headset"></i>
+        <span>24/7</span>
+        <span class="stat-label">Live Support</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES TABS -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2>Complete HVAC <span class="accent">Services</span></h2>
+        <p>Residential, commercial, and maintenance solutions — all under one roof.</p>
+      </div>
+      <div class="tab-bar">
+        <button class="tab-btn active" data-tab="residential">Residential</button>
+        <button class="tab-btn" data-tab="commercial">Commercial</button>
+        <button class="tab-btn" data-tab="maintenance">Maintenance</button>
+      </div>
+      <div class="tab-panels">
+
+        <div class="tab-panel active" id="tab-residential">
+          <div class="svc-grid">
+            <div class="svc-card reveal">
+              <div class="svc-icon"><i class="fas fa-snowflake"></i></div>
+              <h3>AC Installation</h3>
+              <p>Central air, mini-splits, and window units installed by certified techs with same-day availability.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Free load calculation</li>
+                <li><i class="fas fa-check"></i> All major brands</li>
+                <li><i class="fas fa-check"></i> 1-year labor warranty</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon"><i class="fas fa-fire"></i></div>
+              <h3>Heating & Furnace</h3>
+              <p>Gas, electric, and heat pump installation and repair to keep your home warm all winter.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Emergency heat repair</li>
+                <li><i class="fas fa-check"></i> Furnace tune-ups</li>
+                <li><i class="fas fa-check"></i> Heat pump specialists</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon"><i class="fas fa-wind"></i></div>
+              <h3>Air Quality</h3>
+              <p>Whole-home air purification, humidifiers, dehumidifiers, and UV filtration systems.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> HEPA filtration</li>
+                <li><i class="fas fa-check"></i> UV light sanitizers</li>
+                <li><i class="fas fa-check"></i> Smart thermostats</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon"><i class="fas fa-tools"></i></div>
+              <h3>AC Repair</h3>
+              <p>Fast diagnosis and repair for any make or model. Most repairs completed same day.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> $0 diagnostic w/ repair</li>
+                <li><i class="fas fa-check"></i> All refrigerants</li>
+                <li><i class="fas fa-check"></i> 90-day parts guarantee</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon"><i class="fas fa-home"></i></div>
+              <h3>Duct Cleaning</h3>
+              <p>Professional duct cleaning to improve airflow and indoor air quality throughout your home.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Video inspection</li>
+                <li><i class="fas fa-check"></i> NADCA certified</li>
+                <li><i class="fas fa-check"></i> Before & after report</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon"><i class="fas fa-thermometer-half"></i></div>
+              <h3>Smart Thermostats</h3>
+              <p>Nest, Ecobee, and Honeywell smart thermostat installation and programming.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Remote access</li>
+                <li><i class="fas fa-check"></i> Energy savings up to 30%</li>
+                <li><i class="fas fa-check"></i> Professional setup</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="tab-commercial">
+          <div class="svc-grid">
+            <div class="svc-card reveal">
+              <div class="svc-icon yellow"><i class="fas fa-building"></i></div>
+              <h3>Commercial AC Systems</h3>
+              <p>Rooftop units, chillers, and large-scale cooling systems for offices, retail, and warehouses.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> RTU installation</li>
+                <li><i class="fas fa-check"></i> Chiller systems</li>
+                <li><i class="fas fa-check"></i> BAS integration</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon yellow"><i class="fas fa-industry"></i></div>
+              <h3>Industrial Ventilation</h3>
+              <p>Custom ventilation design and installation for manufacturing facilities and large warehouses.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Custom duct design</li>
+                <li><i class="fas fa-check"></i> Exhaust systems</li>
+                <li><i class="fas fa-check"></i> Code compliance</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon yellow"><i class="fas fa-chart-line"></i></div>
+              <h3>Energy Audits</h3>
+              <p>Comprehensive energy assessments to identify inefficiencies and reduce operating costs.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Full system audit</li>
+                <li><i class="fas fa-check"></i> ROI projections</li>
+                <li><i class="fas fa-check"></i> Utility rebate support</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon yellow"><i class="fas fa-wrench"></i></div>
+              <h3>Commercial Repair</h3>
+              <p>Priority service contracts for businesses — guaranteed response times and dedicated techs.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> 2-hr response SLA</li>
+                <li><i class="fas fa-check"></i> 24/7 priority line</li>
+                <li><i class="fas fa-check"></i> Parts stocked on truck</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon yellow"><i class="fas fa-snowflake"></i></div>
+              <h3>Refrigeration Systems</h3>
+              <p>Commercial refrigeration for restaurants, grocery, and cold storage facilities.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Walk-in coolers</li>
+                <li><i class="fas fa-check"></i> Reach-in units</li>
+                <li><i class="fas fa-check"></i> Display cases</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon yellow"><i class="fas fa-project-diagram"></i></div>
+              <h3>New Construction</h3>
+              <p>Full HVAC design-build services for new commercial construction projects of any size.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Design & engineering</li>
+                <li><i class="fas fa-check"></i> Permit coordination</li>
+                <li><i class="fas fa-check"></i> Final commissioning</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="tab-maintenance">
+          <div class="svc-grid">
+            <div class="svc-card reveal">
+              <div class="svc-icon green"><i class="fas fa-calendar-check"></i></div>
+              <h3>Annual Tune-Up</h3>
+              <p>Complete 21-point system inspection and tune-up to maximize efficiency and lifespan.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Filter replacement</li>
+                <li><i class="fas fa-check"></i> Coil cleaning</li>
+                <li><i class="fas fa-check"></i> Full safety check</li>
+              </ul>
+              <a href="#contact" class="svc-link">Schedule Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon green"><i class="fas fa-file-contract"></i></div>
+              <h3>Service Agreements</h3>
+              <p>Priority maintenance plans with guaranteed rates, discounts, and no overtime charges.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Bi-annual visits</li>
+                <li><i class="fas fa-check"></i> 15% parts discount</li>
+                <li><i class="fas fa-check"></i> Priority scheduling</li>
+              </ul>
+              <a href="#contact" class="svc-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon green"><i class="fas fa-filter"></i></div>
+              <h3>Filter Subscription</h3>
+              <p>Never forget a filter again — we deliver and install the right filters on schedule.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Auto-delivery</li>
+                <li><i class="fas fa-check"></i> Professional install</li>
+                <li><i class="fas fa-check"></i> Custom schedule</li>
+              </ul>
+              <a href="#contact" class="svc-link">Subscribe <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon green"><i class="fas fa-search"></i></div>
+              <h3>System Inspection</h3>
+              <p>Pre-season inspections to catch problems before they become expensive emergencies.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> 35-point checklist</li>
+                <li><i class="fas fa-check"></i> Written report</li>
+                <li><i class="fas fa-check"></i> Photo documentation</li>
+              </ul>
+              <a href="#contact" class="svc-link">Book Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon green"><i class="fas fa-tachometer-alt"></i></div>
+              <h3>Efficiency Upgrades</h3>
+              <p>Identify and upgrade inefficient components to cut energy bills by up to 40%.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Energy analysis</li>
+                <li><i class="fas fa-check"></i> Variable speed upgrades</li>
+                <li><i class="fas fa-check"></i> Rebate filing help</li>
+              </ul>
+              <a href="#contact" class="svc-link">Request Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="svc-card reveal">
+              <div class="svc-icon green"><i class="fas fa-phone-volume"></i></div>
+              <h3>Emergency Coverage</h3>
+              <p>24/7 emergency access for plan members — no extra overtime fees, ever.</p>
+              <ul class="svc-features">
+                <li><i class="fas fa-check"></i> Dedicated hotline</li>
+                <li><i class="fas fa-check"></i> No overtime surcharge</li>
+                <li><i class="fas fa-check"></i> 2-hr response time</li>
+              </ul>
+              <a href="#contact" class="svc-link">Get Plan <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container about-inner">
+      <div class="about-content reveal">
+        <span class="section-tag">About Premier HVAC</span>
+        <h2>18 Years of <span class="accent">Trusted Comfort</span></h2>
+        <p>Founded in Your City, Premier HVAC Solutions has been the go-to heating and cooling company for thousands of homeowners and businesses. Our team of NATE-certified technicians brings expertise, honesty, and a commitment to doing the job right the first time.</p>
+        <p>We're not a call center or a franchise — we're local people who live and work in the same community as our customers. That means faster response, real accountability, and service you can trust.</p>
+        <div class="about-grid">
+          <div class="ag-item"><i class="fas fa-certificate"></i><div><strong>NATE Certified</strong><span>All technicians certified</span></div></div>
+          <div class="ag-item"><i class="fas fa-shield-alt"></i><div><strong>Fully Insured</strong><span>$2M liability coverage</span></div></div>
+          <div class="ag-item"><i class="fas fa-thumbs-up"></i><div><strong>Satisfaction Guarantee</strong><span>100% or we make it right</span></div></div>
+          <div class="ag-item"><i class="fas fa-leaf"></i><div><strong>Eco-Friendly</strong><span>Energy-efficient solutions</span></div></div>
+        </div>
+      </div>
+      <div class="about-image reveal">
+        <img src="https://images.unsplash.com/photo-1621905252472-943afaa20e20?w=600&q=80" alt="HVAC technician working on unit" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Work</span>
+        <h2>Recent <span class="accent">Installations</span></h2>
+      </div>
+      <div class="port-grid">
+        <div class="port-card reveal"><img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500&q=75" alt="AC installation" loading="lazy" /><div class="port-cap"><strong>Central AC Install</strong><span>3,200 sq ft home — Your City, ST</span></div></div>
+        <div class="port-card reveal"><img src="https://images.unsplash.com/photo-1598902468171-5a5c58bbda66?w=500&q=75" alt="Commercial HVAC" loading="lazy" /><div class="port-cap"><strong>Commercial RTU Replacement</strong><span>Office complex — Your City, ST</span></div></div>
+        <div class="port-card reveal"><img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&q=75" alt="Mini split install" loading="lazy" /><div class="port-cap"><strong>Mini-Split System</strong><span>4-zone residential — Your City, ST</span></div></div>
+        <div class="port-card reveal"><img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500&q=75" alt="Furnace replacement" loading="lazy" /><div class="port-cap"><strong>Furnace Replacement</strong><span>96% efficiency upgrade — Your City, ST</span></div></div>
+        <div class="port-card reveal"><img src="https://images.unsplash.com/photo-1558002038-1055907df827?w=500&q=75" alt="Duct cleaning" loading="lazy" /><div class="port-cap"><strong>Full Duct Cleaning</strong><span>2,800 sq ft home — Your City, ST</span></div></div>
+        <div class="port-card reveal"><img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=500&q=75" alt="Smart thermostat" loading="lazy" /><div class="port-cap"><strong>Smart Thermostat Network</strong><span>12-unit commercial — Your City, ST</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header"><span class="section-tag">Reviews</span><h2>What Clients <span class="accent">Say</span></h2></div>
+      <div class="testi-grid">
+        <div class="testi-card reveal"><div class="tc-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"AC went out in July at 10pm. They had a tech here by midnight and fixed it on the spot. Zero overtime charge. Unbelievable service."</p><div class="tc-author"><div class="tc-av">RB</div><div><strong>Robert B.</strong><span>Your City, ST</span></div></div></div>
+        <div class="testi-card reveal"><div class="tc-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"Replaced our entire HVAC system. The crew was professional, quick, and the new system cut our energy bill by almost 30%."</p><div class="tc-author"><div class="tc-av">KS</div><div><strong>Karen S.</strong><span>Your City, ST</span></div></div></div>
+        <div class="testi-card reveal"><div class="tc-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"Best HVAC company I've worked with in 20 years of property management. Honest quotes, reliable scheduling, excellent work."</p><div class="tc-author"><div class="tc-av">MH</div><div><strong>Marcus H.</strong><span>Property Manager</span></div></div></div>
+        <div class="testi-card reveal"><div class="tc-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"Signed up for the maintenance plan and it's already paid for itself twice over. Caught a refrigerant leak before it became a $3k repair."</p><div class="tc-author"><div class="tc-av">LD</div><div><strong>Linda D.</strong><span>Your City, ST</span></div></div></div>
+        <div class="testi-card reveal"><div class="tc-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"They installed a 4-zone mini-split in our restaurant. Perfectly done, passed inspection first try. Our kitchen staff finally has AC."</p><div class="tc-author"><div class="tc-av">CT</div><div><strong>Carlos T.</strong><span>Restaurant Owner</span></div></div></div>
+        <div class="testi-card reveal"><div class="tc-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"Quoted $800 less than the other company and got the job done faster. My new Nest thermostat alone saves me $60/month."</p><div class="tc-author"><div class="tc-av">AW</div><div><strong>Amy W.</strong><span>Your City, ST</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-info reveal">
+        <span class="section-tag">Book Service</span>
+        <h2>Request a <span class="accent">Service Call</span></h2>
+        <p>Fill out the form and we'll confirm your appointment within 1 hour. Emergency? Call us directly.</p>
+        <div class="cinfo-items">
+          <div class="ci"><i class="fas fa-phone-alt"></i><div><strong>(555) 000-5678</strong><span>24/7 Emergency Line</span></div></div>
+          <div class="ci"><i class="fas fa-envelope"></i><div><strong>service@premierhvac.com</strong><span>Response within 2 hours</span></div></div>
+          <div class="ci"><i class="fas fa-map-marker-alt"></i><div><strong>Your City, ST</strong><span>& surrounding areas</span></div></div>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal">
+        <form id="hvacForm">
+          <h3>Schedule an Appointment</h3>
+          <div class="frow"><div class="fg"><label>First Name</label><input type="text" placeholder="First" required /></div><div class="fg"><label>Last Name</label><input type="text" placeholder="Last" required /></div></div>
+          <div class="frow"><div class="fg"><label>Phone</label><input type="tel" id="hvacPhone" placeholder="(555) 000-0000" required /></div><div class="fg"><label>Email</label><input type="email" placeholder="email@domain.com" required /></div></div>
+          <div class="fg"><label>Service Type</label>
+            <select required>
+              <option value="">Select...</option>
+              <option>AC Repair</option><option>AC Installation</option><option>Heating / Furnace</option><option>Duct Cleaning</option><option>Smart Thermostat</option><option>Maintenance Plan</option><option>Commercial Service</option><option>Emergency</option>
+            </select>
+          </div>
+          <div class="frow">
+            <div class="fg"><label>Preferred Date</label><select id="hvacDate" required><option value="">Select date...</option></select></div>
+            <div class="fg"><label>Preferred Time</label>
+              <select required><option value="">Select time...</option><option>7:00 AM – 9:00 AM</option><option>9:00 AM – 11:00 AM</option><option>11:00 AM – 1:00 PM</option><option>1:00 PM – 3:00 PM</option><option>3:00 PM – 5:00 PM</option><option>5:00 PM – 7:00 PM</option></select>
+            </div>
+          </div>
+          <div class="fg"><label>Describe the Issue</label><textarea rows="3" placeholder="Briefly describe what's happening..."></textarea></div>
+          <button type="submit" class="btn-submit">Request Appointment <i class="fas fa-arrow-right"></i></button>
+        </form>
+        <div class="form-success" id="hvacSuccess" style="display:none;">
+          <i class="fas fa-check-circle"></i>
+          <h3>Booked!</h3>
+          <p>We'll call within 1 hour to confirm your appointment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo"><span class="logo-icon"><i class="fas fa-wind"></i></span><span class="logo-text white">Premier <span class="accent">HVAC</span></span></a>
+        <p>Heating, cooling, and air quality solutions for homes and businesses across Your City, ST.</p>
+      </div>
+      <div class="fl"><h4>Services</h4><ul><li><a href="#services">AC Installation</a></li><li><a href="#services">Heating & Furnace</a></li><li><a href="#services">Duct Cleaning</a></li><li><a href="#services">Commercial HVAC</a></li><li><a href="#services">Maintenance Plans</a></li></ul></div>
+      <div class="fl"><h4>Company</h4><ul><li><a href="#about">About Us</a></li><li><a href="#portfolio">Our Work</a></li><li><a href="#testimonials">Reviews</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <div class="fc"><h4>Contact</h4><p><i class="fas fa-phone"></i> (555) 000-5678</p><p><i class="fas fa-envelope"></i> service@premierhvac.com</p><p><i class="fas fa-map-marker-alt"></i> Your City, ST</p><div class="f-avail"><i class="fas fa-circle"></i> 24/7 Emergency Available</div></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 Premier HVAC Solutions. All rights reserved. Licensed & Insured | Lic# ST-00000</p></div>
+  </footer>
+
+  <!-- CHATBOT -->
+  <div class="chat-widget" id="chatWidget">
+    <button class="chat-toggle" id="chatToggle" aria-label="Open chat">
+      <i class="fas fa-comment-dots" id="chatIcon"></i>
+    </button>
+    <div class="chat-box" id="chatBox">
+      <div class="chat-header">
+        <div class="ch-info"><div class="ch-avatar"><i class="fas fa-headset"></i></div><div><strong>Premier HVAC Support</strong><span class="ch-status"><i class="fas fa-circle"></i> Online Now</span></div></div>
+        <button class="chat-close" id="chatClose"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="cm bot"><div class="cm-bubble">Welcome to Premier HVAC Solutions. How may I assist you today?</div></div>
+        <div class="chat-options" id="chatOptions">
+          <button class="co-btn" data-msg="I need AC repair">AC Repair</button>
+          <button class="co-btn" data-msg="I need heating service">Heating Service</button>
+          <button class="co-btn" data-msg="I want to schedule maintenance">Maintenance</button>
+          <button class="co-btn" data-msg="I have an emergency">Emergency</button>
+        </div>
+      </div>
+      <div class="chat-input-row">
+        <input type="text" id="chatInput" placeholder="Type a message..." />
+        <button id="chatSend"><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="notification" id="notification"></div>
+  <script src="index.js"></script>
+</body>
+</html>
